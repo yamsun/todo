@@ -1,0 +1,83 @@
+input{
+    color: brown;
+    padding: 0.3rem 1rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    background-color: #e1ff7e;
+    border: 0px;
+    border-radius: 1rem;
+}
+input:hover{
+    background-color: #f2fad5;
+}
+
+#task-done{
+    color: green;
+    /* background-color: aqua; */
+    text-decoration: line-through;
+    font-style: italic;
+    letter-spacing: 0.05em;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+body{
+    background-color: #bada55;
+}
+section{
+    width: 50%;
+    height: 400px;
+    background-color: #bada55;
+    margin-left: 25%;
+    margin-top: 2rem;
+    padding-bottom: 0.3rem;
+    /* margin: auto; */
+}
+table{
+    padding-left: 0.5em;
+    /* width: 50%; */
+    margin-top: 0.5rem 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #bada55;
+
+}
+#addBtn{
+    padding:0.3rem 0.5rem;
+    margin:0;
+    margin-left: 0.3rem;
+    margin-bottom: 0.3rem;
+    background-color: rgb(255, 251, 3);
+    display: inline;
+}
+button{
+    background-color:transparent;
+    padding:0.2rem 0.4rem;
+    margin:0.2rem 0.5rem;
+    border:0px;
+    border-radius: 0.3rem;
+    text-align: center;
+    align-self: center;
+    /* display: flex; */
+    /* align-items: flex-end; */
+}
+button:hover{
+    background-color:#d0f161;
+}
+tr{
+    /* padding: 4rem 0; */
+    margin-top: 2rem;
+    background-color: #c0e055;
+}
+td{
+    /* background-color: aqua; */
+    /* padding:0; */
+}
+#un-checked-box{
+    color: blue;
+}
+
+#task{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:brown;
+    /* font-weight: bold; */
+    letter-spacing: 0.05em;
+    /* text-transform: uppercase; */
+}
